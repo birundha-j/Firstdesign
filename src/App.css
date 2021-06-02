@@ -1,38 +1,370 @@
-.App {
+/* .main{
+  width: 100%;
+  background-color: rgb(247, 174, 174);
+} */
+.master{
+  background-color: white;
+  width: 80%;
+  /* height:300px ; */
+  margin: auto;
+}
+.header{
+  width: 80%;
+  display: flex;
+  height: 60px;
+  box-shadow: -2px 10px 10px -14px rgba(146, 142, 142, 0.897)
+}
+.headermenus{
+  color: gray;
+  margin-left: 4%;
+  font-size: 14px;
+  display: flex;
+  width:20% ;
+  justify-content: space-between;
+}
+.homestyle{
+  box-shadow: 2px 4px 10px -4px rgba(146, 142, 142, 0.897);
+  
+  margin: auto;  
+  padding: 2px;
+  text-align: center;
+  padding: 10px 16px 9px 16px;
+  border-radius: 0px 0px 5px 5px;
+  margin-bottom: 15px;
+  
+}
+.shopstyle{
+  margin-top: 15px;
+  margin-left: 26px;
+}
+.searchbar{
+  width: 60%;
+  margin: auto;
+  margin-left: 50%;
+  color: gray;
+  border-radius: 25px;
+}
+.calender{
+  text-align: center;
+  font-size: 23px;
+  color: #e4d9d9;
+  margin: auto;
+}
+
+.maincontent{
+  display: flex;
+  height: 600px;
+}
+.leftsiecontent{
+  width: 60%;
+}
+
+.Goalweight{
+  margin-top: 10px;
+  height: 50px;
+  text-align:center;
+  margin-left: 1%;
+  margin-right: 1%;
+  box-shadow: -1px 1px 5px -2px rgba(146, 142, 142, 0.897);
+  
+  margin: auto;  
+  padding: 2px;
+  text-align: center;
+  padding: 10px 16px 9px 16px;
+  border-radius: 0px 0px 5px 5px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.topleft{
+  margin-top: 6%;
+}
+.bottomleft{
+  /* width: 60%; */
+  display: flex;
+  height: 660px;
+  background-color: rgb(241, 235, 235);
+  border-radius:18px ;
+  position: relative;
+    bottom: 13px;
+
+}
+.datal{
+  height: 45px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2%;
+}
+.bottom1{
+  width: 50%;
+  display: flex;
+}
+
+
+.goalsarrow{
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.gwc{
+  font-size: 11px;
+    font-weight: bold;
+    padding-left: 10%;
+}
+.arrow{
+  padding-right: 10%;
+}
+.heightweight{
+  height: 50px;
+  padding-top: 3%;
+  display: flex;
+}
+.HFC{
+  width: 50%;
+  display: flex;
+}
+.height{
+  font-size: 14px;
+  padding-top: 3%;
+  padding-left: 20%;
+}
+.feet{
+  font-size: 10px;
+  text-align: center;
+  padding:  2px 10px;
+  text-align: center;
+  border-radius: 10px 0px 0px 10px;
+  margin-bottom: 15px;
+  box-shadow: 2px 4px 10px -4px rgba(146, 142, 142, 0.897);
+  background-color: rgb(214, 200, 200);
+  margin-left: 4%;
+  padding-bottom: 2px;
+
+}
+.cms{
+  font-size: 10px;
+  /* text-align: center; */
+  padding:  2px 10px;
+  text-align: center;
+  border-radius: 0px 10px 10px 0px;
+  margin-bottom: 15px;
+  box-shadow: 2px 4px 10px -4px rgba(146, 142, 142, 0.897);
+  background-color: rgb(241, 241, 182);
+
+}
+.feetcms{
+  display: flex;
+  padding-top: 5px;
+  
+}
+.WKL{
+  width: 50%;
+  display: flex;
+}
+.weight{
+  font-size: 14px;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+.kgs{
+  font-size: 10px;
+  text-align: center;
+  padding:  2px 10px;
+  border-radius: 10px 0px 0px 10px;
+  margin-bottom: 15px;
+  box-shadow: 2px 4px 10px -4px rgba(146, 142, 142, 0.897);
+  background-color: rgb(214, 200, 200);
+  margin-left: 4%;
+}
+.lbs{
+  font-size: 10px;
+  /* text-align: center; */
+  padding:  2px 10px;
+  text-align: center;
+  border-radius: 0px 10px 10px 0px;
+  margin-bottom: 15px;
+  box-shadow: 2px 4px 10px -4px rgba(146, 142, 142, 0.897);
+  background-color: rgb(241, 241, 182);
+
+}
+.kgslbs{
+  display: flex;
+  padding-top: 5px;
+}
+.inputbox2{
+  height: 50px;
+  display: flex;
+}
+.input1{
+  width: 50%;
+}
+.inputcms{
+  font-size: 14px;
+  padding-left: 20%;
+  padding-bottom: 2%;
+}
+.input165{
+  text-align: right;
+  border-radius: 5px;
+}
+.circledata{
+  height: 300px;
+  padding-top: 10%;
+  justify-content: center;
+
+}
+
+/* @media only screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
+
+@media only screen and (max-width: 1300px) {
+  .heightweight {
+    display: grid;
+  }
+}
+.dot {
+  box-shadow: -1px 4px 15px 4px rgb(238, 197, 110);
+
+  background:  rgb(238, 197, 110);
+   border-radius: 50%;
+   height: 130px;
+   width: 130px;
+   position: relative;
+    margin-left: 33%;
+    bottom: 6px;
+}
+.dot1{
+position: absolute;
+   background: rgb(238, 171, 27);
+   border-radius: 50%;
+   height: 100px;
+   width: 100px;
+   top: 126%;
+   left: 127%;
+   margin: -150px 0px 0px -150px;
+   color: white;
+   /* display: flex; */
+   align-items: center;
+
+
+}
+.insidecircle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 21%;
+
+}
+.number264{
+  font-weight: bold;
+  font-size: 23px;
+}
+.kgm{
+  font-size: 10px;
+}
+.bmi{
+  font-size: 13px;
+  padding-left: 40%;
+}
+.overweight{
+  color :rgb(238, 171, 27) ;
+  height: 30px;
+    text-align: center;
+    padding-top: 3%;
+    font-weight: bold;
+
+}
+.aboveweight{
+  color: rgb(238, 171, 27);
+  text-align: center;
+    font-weight: 400;
+    height: 30px;
+}
+.goals{
+  font-size: 13px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputcmsagain{
+  text-align: center;
+  text-align: center;
+    font-size: 12px;
+    padding-top: 2%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input165again{
+  text-align: center;
+  padding-left: 15%;
+    padding-top: 3%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.progress{
+  height: 175px;
+}
+.line1{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+}
+.duration{
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 10%;
+}
+.days30{
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(25, 156, 25) ;
 }
 
-.App-link {
-  color: #61dafb;
+.bottom2{
+  width: 1px;
+    height: 507px;
+    background-color: rgb(179, 175, 175);
+    position: relative;
+    top: 2%;
+    margin-left: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.abovename{
+  font-size: 12px;
+  color: gray;
+  padding-bottom: 5px;
 }
+.bottom3{
+  width:50%;
+  padding-top: 6%;
+  padding-left: 3%;
+}
+ .rightsidecontent{
+    width: 20%;
+  }
+  .topright{
+    box-shadow: 1px 0px 7px -2px rgba(146, 142, 142, 0.897);
+  
+  height: 150px;
+  width: 75%;
+  border-radius: 0px 0px 5px 5px;
+  margin-bottom: 15px;
+  margin-left: 20%;
+    padding-top: 5%;
+    padding: 10px 16px 9px 16px;
+    margin-top: 18%;
+  }
+  .images{
+    height: 90px;
+  }
+  .booking{
+    display: flex;
+    justify-content: center;
+  }
+  .homeimg{
+    width: 34%;
+    height: 23px;
+    
+    
+  }
+  .burnhome{
+    display: flex;
+  }
